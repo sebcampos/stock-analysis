@@ -39,18 +39,29 @@ Sub AllStocksAnalysisRefactored()
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
     
     '1a) Create a ticker Index
-    
+
+    Dim tickerIndex As Integer
+    tickerIndex=0    
+
 
     '1b) Create three output arrays   
     
+    Dim tickerVolumes As Long
+    Dim tickerStartingPrices As Single
+    Dim tickerEndingPrices As Single    
+    
+    
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
-    ' If the next row’s ticker doesn’t match, increase the tickerIndex.
-    
-        
+    For i = 0 To 11
+        ticker = tickers(i)
+        tickerVolumes = 0
+    'If the next row’s ticker doesn’t match, increase the tickerIndex.
+        If Cells(i+1,1).Value <> ticker(i)  
+            tickerIndex=tickerIndex+1
     ''2b) Loop over all the rows in the spreadsheet. 
     For i = 2 To RowCount
-    
+
         '3a) Increase volume for current ticker
         
         
