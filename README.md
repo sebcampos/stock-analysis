@@ -1,16 +1,7 @@
-# stock-analysis
-
-The written analysis contains the following structure, organization, and formatting:
-
-There is a title, and there are multiple paragraphs (2 pt).
-Each paragraph has a heading (2 pt).
-There are subheadings to break up text (2 pt).
-Links are working, and images are formatted and displayed where appropriate (2 pt).
-
-The written analysis has the following:
+# Stock-Analysis with VBA 
 
 ## Overview of Project
-The purpose and background are well defined (2 pt).
+The Purpose of this project was to refactor a useful VBA function to so that it can be  efficently applicable on a much larger scale. Although the original function serves its purpose and  runs relativley quickly for a dataset of 12 stocks we will want to run it quickly as possible for thousands of stocks. Luckily in VBA there is a function to time the speed of our scripts. Our Goal will be to take the VBA functions and modify/refractor it to run at a faster rate which is testable by the previously mentioned function.  
 ## Results and Analysis
 The analysis is well described with screenshots and code (4 pt).
 Using images and examples of your code
