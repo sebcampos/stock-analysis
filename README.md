@@ -7,16 +7,24 @@ The analysis is well described with screenshots and code (4 pt).
 Using images and examples of your code
 ### Data Analysis
 The output of our function displays the data aranged into 3 columns. The Ticker Column represents the name of the stock, Total Daily Volume Column represents the total daily volume for the corresponding stock, and the final Return Column displays the return percentage or the stocks ending price divided by its starting price.
+Finnally the Return percentage is code red for a negative and green for a positive return percentage.
 
-#2017
+#### 2017
 ![alt text](https://github.com/sebcampos/stock-analysis/blob/master/other_pngs/2017.png)
+In the above image we can all of the stocks except for TERP giving a positive return percentage and their coresponding Total Daily Volume. It appears that some ove the stock is returning over 100 percent ! now lets compare these numbers from 2017 to the graph image below depicting data from 2018
 
-#2018
+#### 2018
 ![alt text](https://github.com/sebcampos/stock-analysis/blob/master/other_pngs/2018.png)
+When we compare our 2017 image with the above 2018 image one difference is immediatley clear thanks to our formating of the data. There are many more red cells than before. Our script utilized a condition `if` statement to format the negative returns as red and positive as green. We can see that almost all of our return percentage has dropped, and although some did increase most of the data set had slipped into the negative return range.
 
 
 ### VBA Analysis
 ___execution times of the original script and the refactored script.
+#### Original Function
+![alt text](https://github.com/sebcampos/stock-analysis/blob/master/other_pngs/VBA_function.png)
+#### Refactored Function
+![alt text](https://github.com/sebcampos/stock-analysis/blob/master/other_pngs/VBA_Functionrefactored.png)
+
 ## Summary
 There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
