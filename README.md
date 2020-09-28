@@ -8,8 +8,11 @@ Using images and examples of your code
 ### Data Analysis
 The output of our function displays the data aranged into 3 columns. The Ticker Column represents the name of the stock, Total Daily Volume Column represents the total daily volume for the corresponding stock, and the final Return Column displays the return percentage or the stocks ending price divided by its starting price.
 
+#2017
 ![alt text](https://github.com/sebcampos/stock-analysis/blob/master/other_pngs/2017.png)
 
+#2018
+![alt text](https://github.com/sebcampos/stock-analysis/blob/master/other_pngs/2018.png)
 
 
 ### VBA Analysis
